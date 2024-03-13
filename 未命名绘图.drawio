@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T06:41:48.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="LALBH4OAyA-tyczjz0aw" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T06:49:57.329Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="Wnx4PycU_xZ62brlhXwp" version="24.0.4" type="github">
   <diagram name="第 1 页" id="u0s4evxgeO5GkAvL17LF">
     <mxGraphModel dx="791" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -148,6 +148,22 @@
         </mxCell>
         <mxCell id="fB4GTKhYR3a0nAZTmNJz-6" value="miss queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fB4GTKhYR3a0nAZTmNJz-15" value="暂时忽略预取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="178" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fB4GTKhYR3a0nAZTmNJz-16" value="&lt;div&gt;Refill Page Cache&lt;/div&gt;&lt;div&gt;(refill info)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fB4GTKhYR3a0nAZTmNJz-17" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="560" as="targetPoint" />
+            <mxPoint x="960" y="595" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="960" y="590" />
+              <mxPoint x="871" y="590" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
